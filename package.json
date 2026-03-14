@@ -1,0 +1,23 @@
+{
+    "name": "cypresse2etest",
+    "version": "1.0.0",
+    "description": "CypressE2eTest - A powerful JavaScript application",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "test:coverage": "jest --coverage"
+    },
+    "keywords": ["javascript", "nodejs", "cypresse2etest"],
+    "author": "gyurioka",
+    "license": "MIT",
+    "dependencies": {
+        "minimist": "^1.2.8"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "nodemon": "^3.0.1"
+    }
+}
